@@ -1,0 +1,347 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+  header {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: center;
+    color: #35414B;
+      }
+      h4{
+        font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #4E5A65;
+      }
+       nav {
+        width: 70%;
+        height: 40px;
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav ul {
+        margin-top: 20px;
+        width: 45%;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+      } 
+  li{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+color: #35414B;
+  }
+   .button-3{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center 
+    
+    
+} 
+.button-3 button:first-child{
+    border-radius: 20px;
+    background-color: #81C43B;
+    border: none;
+    
+    
+}
+.button-3 button:last-child{
+    border-radius: 20px;
+    background-color: gainsboro;
+    border: none;
+
+}
+.login button:first-child{
+    border:none;
+    background-color: #ffffff;
+}
+.login button:last-child{
+    background: #ECE6FF;
+    border-radius: 4px;
+  color: #bb6df3;
+  padding: 10px 40px;
+  border: none;
+}
+
+.button-4 button:first-child:hover{
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 4px 0px 0px 4px;
+}
+.button-4 button:last-child{
+    background: #794CFF;
+    border: 1px solid #794CFF;
+    border-radius: 0px 4px 4px 0px;
+    margin: 0.2em;
+}
+.button-4{ 
+  border: none;
+  width: 319px;
+  height: 52px;
+  text-align: center;
+  
+  }
+
+  .section-1 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .form{
+    display: flex;
+  }
+  .messengers{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #ggl{
+    position: inherit;
+    width: 80px;
+    height: 26.11px;
+    left: 250px;
+    top: 1387px;
+  }
+  #air{
+    position: inherit;
+    width: 80px;
+    height: 24.96px;
+    left: 462px;
+    top: 1388px;
+  }
+  #fb{
+    position: inherit;
+    left: 46.81%;
+    right: 47.84%;
+    top: 29.62%;
+  }
+  #hs{
+    position: inherit;
+    left: 61.88%;
+    right: 32.57%;
+    top: 29.56%;
+  }
+  #slk{
+    position: inherit;
+    width: 80px;
+    height: 20.24px;
+    left: 1110px;
+    top: 1390px;
+  }
+  .section-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .part3{
+    display: inherit;
+    flex-direction: column;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #4E5A65;
+  }
+  h6{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 18px;
+color: #35414B;
+  }
+  .text_sectn3{
+  background: #F6F3FC;
+border: 1px solid #F6F3FC;
+border-radius: 0px 8px 8px 0px;
+  }
+  .section-4{
+    margin-top: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 18px;
+color: #35414B;}
+.middleparts{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.middle_part1{
+  display: flex;
+}
+.middle_part2{
+  display: flex;
+}
+.main_word2{
+  display: flex;
+  justify-content: center;
+}
+.midpng{ 
+width: 64px;
+height: 64px;
+align-items: center;
+justify-content: space-between; 
+}
+
+.section-5{
+  display: flex;
+background: #FBFAFE;
+border: 1px solid #F0EBFA;
+font-family: 'Inter';
+font-style: normal;
+line-height: 48px;
+color: #35414B;
+}
+.main_word3{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+color: #35414B;
+}
+.p3{
+  font-family: 'Inter';
+font-style: normal;
+
+}
+.btn5{
+width: 164px;
+height: 52px;
+background: #796EFF;
+border-radius: 4px;
+border: none;
+}
+.main_word4{
+
+display: flex;
+align-content: center;
+justify-content: center;
+}
+
+.name1{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 16px;
+color: #4E5A65;
+}
+.p4{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+text-align: center;
+color: #4E5A65;
+}
+.section7-1{
+  margin: 0  auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 1110px;
+height: 224px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 48px;
+color: #FFFFFF;
+
+background: #796EFF;
+border-radius: 16px;
+}
+.section-8{
+  margin: 0 auto;
+  display: flex;
+justify-content: center;
+align-items: center;
+  width: 1505px;
+height: 336px;
+font-family: 'Inter';
+font-style: normal;
+/* font-weight: 600; */
+font-size: 16px;
+line-height: 16px;
+/* font-feature-settings: 'salt' on, 'liga' off; */
+color: #FFFFFF;
+background: #1D2830;
+gap: 180px;
+}
+.footer__h{
+  display: flex;
+  flex-direction: column;
+}
+.namefunction{
+  display: flex;
+  gap: 180px;
+}
+.section-8 li{
+  list-style: none;
+}
+.footer__foot{
+  /* display: flex; */
+  border-top: 1px solid #aaa;
+background: #1D2830;
+width: 100vw;
+height: 80px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.footer__foot p{
+  padding-left: 200px;
+}
+.icon4{
+  padding-right: 112px;
+  display: flex;
+  gap: 24px;
+}
+.li_foot{
+  color: #F6F3FC;
+}
